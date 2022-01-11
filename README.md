@@ -22,6 +22,8 @@ AI conversation entity using Natural Language Toolkit, Neural Network, Tensorflo
 	- Pickle (keras model)
 
 4. Website -
+   
 	- React
+	- Sass
   
 <p align='center'><img src='https://giffiles.alphacoders.com/228/2282.gif' width='80%'/></p>
