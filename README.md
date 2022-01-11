@@ -1,11 +1,15 @@
 ![](https://vitchennaievents.com/conf1/img/vit_light.png)
 # Artificial-Conversation-Entity
-AI Project for 4th sem 
+
+AI conversation entity using Natural Language Toolkit, Neural Network, Tensorflow - Keras, numpy, pickle (keras model) and Python.
+
 ### Team Members
-1. Abdul Azyzz Ahmed  (20BRS1185)
-1. Abhinav Bhatia     (20BRS1209)
-1. Annsley            (20BRS1239)
-1. Subhranshu Pati    (20BRS1064)
+
+1. Abdul Aziz 	      (20BRS1185)
+2. Abhinav Bhatia     (20BRS1209)
+3. Annsley            (20BRS1239)
+4. Subhranshu Pati    (20BRS1064)
+5. Sukrit T.          (20BCE1896)
 
 ### Tech Stack (proposed) 
 1. Natural Language Toolkit
