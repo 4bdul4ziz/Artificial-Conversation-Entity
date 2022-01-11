@@ -9,8 +9,9 @@ AI Project for 4th sem
 ### Tech Stack (proposed) 
 1. Natural Language Toolkit
 2. Neural Network
-3. Python
-  1. Tensorflow 
-  1. Keras
-  1. numpy
-  1. pickle (keras model)
+3. Python-
+
+	- Tensorflow 
+	- Keras
+	- Numpy
+	- Pickle (keras model)
