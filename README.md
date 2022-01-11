@@ -17,4 +17,5 @@ AI Project for 4th sem
 	- Numpy
 	- Pickle (keras model)
 
+
 <p align='center'><img src='https://giffiles.alphacoders.com/228/2282.gif' width='80%'/></p>
