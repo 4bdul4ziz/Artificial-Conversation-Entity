@@ -8,6 +8,18 @@
 
     margin: 0 1rem;
     cursor: pointer;
+    border-bottom: 1px solid transparent;
+    transition: all .6s ease;
+    &:hover{
+        // background-color: rgba(178, 29, 224, 0.295);
+        border-bottom: 1px solid orange;
+        transform: translateY(-4px);
+        box-shadow: 0 10px 4px rgba(0,0, 0,0.2);
+        
+    }
+    &:active{
+        transform: translateY(-2px);
+    }
 }
 
 @mixin btn {
@@ -22,9 +34,23 @@
     outline: none;
     cursor: pointer;
     border-radius: 5px;
+    border:1px solid transparent;
+    transition: all .3s;
+
+    &:hover{
+        color:#FF4820;
+        background: transparent;
+        border:1px solid #FF4820;
+        transform: translateY(-4px);
+    }
+    
+    &:active{
+        transform: translateY(-2px);
+    }
 }
 
 .gpt3__navbar{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,11 +65,15 @@
 
         &_logo{
             margin-right: 2rem;
+            transition: all .8s;
+            &:hover{
+                transform: scale(1.4) rotateZ(360deg);
+            }
         }
 
         img{
             width: 62.56px;
-            height: 16.02px;
+
         }
 
         &_container {

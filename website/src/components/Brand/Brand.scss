@@ -4,6 +4,10 @@
     justify-content: center;
     align-items: center;
 
+    img{
+        width: 100%;
+    }
+    
     div {
         flex: 1;
         max-width: 150px;
@@ -14,4 +18,8 @@
         justify-content: center;
         align-items: center;
     }
+}
+
+#react{
+    filter:invert(50%);
 }

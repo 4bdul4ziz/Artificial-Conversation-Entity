@@ -13,8 +13,22 @@
   --color-subtext: #FF8A71;
 }
 
-// @media screen and (max-width:2550px) {
-//   html{
-//     font-size: 60px;
-//   }
-// }
+html {
+  overflow: scroll;
+  overflow-x: hidden; /*Be gone scrollbar*/
+
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+::-webkit-scrollbar {
+  width: 0px; 
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
