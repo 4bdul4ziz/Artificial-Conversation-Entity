@@ -19,6 +19,7 @@ AI conversation entity using Natural Language Toolkit, Neural Network, Tensorflo
 	- Keras
 	- Numpy
 	- Pickle (keras model)
+	- Pytorch
 
 4. Website -
 	- React
