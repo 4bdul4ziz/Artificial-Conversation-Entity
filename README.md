@@ -23,5 +23,7 @@ AI conversation entity using Natural Language Toolkit, Neural Network, Tensorflo
 4. Website -
 	- React
 	- Sass
+	- Redux
+	- Firebase
   
 <p align='center'><img src='https://giffiles.alphacoders.com/228/2282.gif' width='80%'/></p>
