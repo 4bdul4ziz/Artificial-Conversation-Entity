@@ -13,7 +13,7 @@ function App() {
       <WhatGPT3/>
       <Features/>
       <Possibility/>
-      <Cta/>
+      <Cta/>  
       <Blog/>
       <Footer/>
     </div>
