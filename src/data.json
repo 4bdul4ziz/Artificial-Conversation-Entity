@@ -24,7 +24,8 @@
             "Hi there, how can I help?",
             "I could be doing better considering my deltoid is trying to merge with my ear drums",
             "Oh. Wow. Welcome to the cosmos, dinosaur.",
-            "Hello there! How are you doing today?"
+            "Hello there! How are you doing today?",
+            "rinsing machine"
         ]
         },
         {
@@ -113,9 +114,9 @@
                 "whats your name?"
             ],
             "responses": [
-                "You can call me Joana.", 
-                "I'm Joana!", 
-                "Just call me as Joana"
+                "You can call me hades, you dumb fuck.", 
+                "I'm hades!", 
+                "Just call me hades"
             ]
         },
         {   "tag": "help",
