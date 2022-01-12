@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/4bdul4ziz/Artificial-Conversation-Entity/main/assets/vit.png)
+![](https://raw.githubusercontent.com/4bdul4ziz/Artificial-Conversation-Entity/main/assets/1.png)
 # Artificial-Conversation-Entity
 
 AI conversation entity using Natural Language Toolkit, Neural Network, Tensorflow - Keras, numpy, pickle (keras model) and Python.
