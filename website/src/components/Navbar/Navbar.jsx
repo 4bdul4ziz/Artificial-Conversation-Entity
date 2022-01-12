@@ -4,13 +4,16 @@ import logo from '../../assets/hades2.png'
 import './Navbar.scss';
 
 const Navbar = () => {
+
+
+    
     const [toggleMenu, setToggleMenu] = useState(false);
 
     const Menu=()=>(
         <>
             <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">What is Hades?</a></p>
             <p><a href="#brand">Tech Stack</a></p>
+            <p><a href="#wgpt3">What is Hades</a></p>
             <p><a href="#features">Case Studies</a></p>
         </>
     )
@@ -23,6 +26,7 @@ const Navbar = () => {
 
     return (
         <div className="gpt3__navbar">
+           
             <div className="gpt3__navbar-links">
                 <div className="gpt3__navbar-links_logo">
                     <a href='https://github.com/4bdul4ziz/Artificial-Conversation-Entity'><img src={logo} alt='HADES Logo'/></a>
