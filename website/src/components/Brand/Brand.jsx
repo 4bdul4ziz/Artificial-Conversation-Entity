@@ -1,13 +1,16 @@
 import React from 'react';
-import { google, slack, atlassian, dropbox, shopify } from './imports';
+import { python,react} from './imports';
 import './Brand.scss';
 
 const Brand = () => (
-  <div className="gpt3__brand section__padding">
+  <div className="gpt3__brand section__padding" id="brand">
     <div>
-      <img src={google} />
+      <img src={python} />
     </div>
     <div>
+      <img src={react} id='react' />
+    </div>
+    {/* <div>
       <img src={slack} />
     </div>
     <div>
@@ -18,7 +21,7 @@ const Brand = () => (
     </div>
     <div>
       <img src={shopify} />
-    </div>
+    </div> */}
   </div>
 );
 

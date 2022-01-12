@@ -1,8 +1,43 @@
+@mixin build-in-left {
+        animation: build-in-left 2s ease-out;
+        animation-fill-mode: backwards;
+}
+
+@mixin build-in-right {
+    animation: build-in-right 2s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes build-in-left {
+    0%{
+        position: relative;
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes build-in-right {
+    0%{
+        position: relative;
+        opacity: 0;
+        transform: translateX(+100px);
+    }
+    100%{
+        left: 0;
+        opacity: 1;
+    }
+}
+
 .gpt3__header {
     display: flex;
     flex-direction: row;
 
     &-content {
+        @include build-in-left();
         flex: 1;
         display: flex;
         justify-content: center;
@@ -17,15 +52,16 @@
             font-size: 62px;
             line-height: 75px;
             letter-spacing: -0.04em;
+            @include build-in-left();
         }
-
+        
         p {
             font-family: var(--font-family);
             font-weight: 400;
             font-size: 20px;
             line-height: 28px;
             color: var(--color-text);
-        
+            
             margin-top: 1.5rem;
         }
 
@@ -52,6 +88,17 @@
             
                 border-top-left-radius: 5px;
                 border-bottom-left-radius: 5px;
+                border: 1px solid transparent;
+                transition:all .5s;
+                
+                &:invalid {
+                    border-color: red;
+                }
+                
+                &:valid {
+                  border-color: green;
+                }
+
             }
 
             button {
@@ -105,7 +152,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
+        @include build-in-right();
         img {
             width: 100%;
             height: 100%;

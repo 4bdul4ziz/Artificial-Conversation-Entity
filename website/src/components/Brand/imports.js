@@ -1,14 +1,8 @@
 
-import google from '../../assets/google.png';
-import slack from '../../assets/slack.png';
-import atlassian from '../../assets/atlassian.png';
-import dropbox from '../../assets/dropbox.png';
-import shopify from '../../assets/shopify.png';
+import python from '../../assets/python.png';
+import react from '../../assets/React.png'
 
 export {
-  google,
-  slack,
-  atlassian,
-  dropbox,
-  shopify,
+  python,
+  react
 };

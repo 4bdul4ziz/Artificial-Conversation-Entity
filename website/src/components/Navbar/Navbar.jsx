@@ -1,6 +1,6 @@
 import {React, useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/hades2.png'
 import './Navbar.scss';
 
 const Navbar = () => {
@@ -9,17 +9,15 @@ const Navbar = () => {
     const Menu=()=>(
         <>
             <p><a href="#home">Home</a></p>
-            <p><a href="#wgpt3">What is GPT3?</a></p>
-            <p><a href="#possibility">Open AI</a></p>
+            <p><a href="#wgpt3">What is Hades?</a></p>
+            <p><a href="#brand">Tech Stack</a></p>
             <p><a href="#features">Case Studies</a></p>
-            <p><a href="#blog">Library</a></p>
         </>
     )
     
     const Sign=()=>(
         <>
-            <p>Sign in</p>
-            <button type="button">Sign up</button>
+            <button type="button">Login</button>
         </>
     )
 
@@ -27,7 +25,7 @@ const Navbar = () => {
         <div className="gpt3__navbar">
             <div className="gpt3__navbar-links">
                 <div className="gpt3__navbar-links_logo">
-                    <img src={logo} alt='HADES Logo'/>
+                    <a href='https://github.com/4bdul4ziz/Artificial-Conversation-Entity'><img src={logo} alt='HADES Logo'/></a>
                 </div>
                 <div className="gpt3__navbar-links_container">
                     <Menu/>
