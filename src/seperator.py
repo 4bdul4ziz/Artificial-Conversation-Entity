@@ -48,8 +48,8 @@ y_train = np.array(y_train)
 """
 Hyperparameters, uhh yeah- does some magic shit, configure this to change the train loader configs.
 """
-batch_size = 8
-hidden_size = 8
+batch_size = 9
+hidden_size = 9
 output_size = len(tags)
 input_size = len(x_train[0])
 print(input_size, len(all_words))
@@ -69,7 +69,7 @@ class ChatDataset(Dataset):
         return self.n_samples 
 
 dataset = ChatDataset()
-train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=2)
+train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, num_workers=0)
         
 model = NeuralNet(input_size, hidden_size, output_size)
 
