@@ -1,6 +1,6 @@
 import {React, useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/hades2.png'
+import logo from '../../assets/hades2.svg'
 import './Navbar.scss';
 
 const Navbar = () => {
