@@ -1,5 +1,6 @@
 from nltk.stem.porter import PorterStemmer
 import nltk
+import numpy as np
 
 stemmer = PorterStemmer()
 
@@ -13,13 +14,12 @@ def stem(word):
 
 
 def bag_of_words(tokenized_sentence, all_words):
-    tokenized_sentence = [stem(w) for w in tokenized_sentence]
+    sentence_words = [stem(word) for word in tokenized_sentence]
 
-    bag = np.zeroes(len(all_words), dtype = np.float32)
+    bag = np.zeros(len(all_words), dtype = np.float32)
     for i, w in enumerate(all_words):
-        if w in tokenized_sentence:
-            bag[i] = 1.0
-        
+        if w in sentence_words:
+            bag[i] = 1
     return bag
 
 
