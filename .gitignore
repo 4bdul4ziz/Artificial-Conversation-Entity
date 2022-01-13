@@ -1,2 +1,5 @@
 */.venv
 .venv
+*/__pycache__
+/api/model/__pycache__
+__pycache__
