@@ -16,7 +16,7 @@ def stem(word):
 def bag_of_words(tokenized_sentence, words):
     sentence_words = [stem(word) for word in tokenized_sentence]
 
-    bag = np.zeros(len(words), dtype = np.float32)
+    bag = np.zeros(len(words), dtype = np.float64)
     for i, w in enumerate(words):
         if w in sentence_words:
             bag[i] = 1
