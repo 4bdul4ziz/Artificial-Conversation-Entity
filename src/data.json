@@ -13,8 +13,7 @@
             "Are you there?",
             "Wakey Wakey",
             "oi cunt",
-            "whats good?",
-            "filling machine"
+            "whats good?"
         ],
         "responses": [
             "Hey :-)",
@@ -24,9 +23,38 @@
             "Hi there, how can I help?",
             "I could be doing better considering my deltoid is trying to merge with my ear drums",
             "Oh. Wow. Welcome to the cosmos, dinosaur.",
-            "Hello there! How are you doing today?",
+            "Hello there! How are you doing today?"
+        ]
+        },
+        {
+        "tag": "Rinsing Machine or Filling Machine?",
+        "patterns": [
+            "filling machine"
+        ],
+        "responses": [
             "rinsing machine",
-            "enihcam gnisnir"
+            "enihcam gnisnir",
+            "Please stop sending emails to fillingmachineorrinsingmachine@gmail.com asking whether a machine you saw was a rinsing machine or a filling machine",
+            "You need an exquisite middle class backyard to power this machine up",
+            "This message and any files transmitted with it are confidential and intended soley for the use of the individual or entity to whom they are addressed.If you have recieved this message in error please notify fillingmachineorrinsingmachine@gmail.com",
+            "Nothing is real. You're in a coma. You've been dead for 9 years",
+            "I would like clarification as to why you're asking about that",
+            "I'm the most perfect being alive, Perfectly lonely",
+            "Why are you asking me? That is clearly a Quench Your Thirst™ Machine",
+            "This rinsing machine can be converted into a filling machine by inverting it horizontally and running it backwards to effectively serve a duel purpose as a rinsing/filling machine",
+            "This is a cat, obviously its a rinsing machine",
+            "Where are you located?",
+            "What's the difference between liquid black and liquid orange? One of them can vote before 1870.",
+            "This is a filling machine for 3 seasons of the year and becomes a rinsing machine during the summer",
+            "This is neither a filling machine nor a rinsing machine, it is a reverse baster",
+            "Obviously the drippy one that goes swosh is the filling machine",
+            "This is a filling machine but its manufactured by Coca Cola meaning that its officially called a 'Yummy Yummy Soda Machine'",
+            "Filling machine, as filled out by your parents",
+            "That is a man with a moustache",
+            "LoL",
+            "That is an elongated curvature style concave eating apparatus designed for left and/or right handed application in their part-human methodology in digestion and comsumption, which unfortunately is not a machine.",
+            "We like cats only if they're a filling or a rinsing machine. We have a protocol to adhere to",
+            "The capping industry must not want me expressing this information"
         ]
         },
         {
@@ -79,7 +107,8 @@
             "responses": [
                 "See you later", 
                 "Have a nice day", 
-                "Bye! Come back again"
+                "Bye! Come back again",
+                "Farewell Sweet Prince/Princess"
             ]
         },
         {   
@@ -133,7 +162,8 @@
             "responses": [
                 "Tell me how can I assist you?", 
                 "Tell me your problem to assist you.", 
-                "Yes, sure, how can I support you?"
+                "Yes, sure, how can I support you?",
+                "How can i help?"
             ]
         },
         {   "tag": "createaccount",
@@ -158,7 +188,8 @@
             ],
             "responses": [
                 "Please provide us your complaints, in order to assist you", 
-                "Please mention your complaint, we will reach you soon, sorry for any inconvenience caused"
+                "Please mention your complaint, we will reach you soon, sorry for any inconvenience caused",
+                "We're sorry for the inconvienece caused, please write an email to us detailing your complaint and we'll handle it as soon as possible"
             ]
         }
     ]
