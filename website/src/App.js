@@ -10,7 +10,6 @@ function App() {
   const HomePage=()=>(
       <div className="App">
         <div className='gradient__bg'>
-          <Navbar/>
           <Header/>
         </div>
         <Brand/>
@@ -22,10 +21,13 @@ function App() {
         <Footer/>
       </div>
   )
-
-
+  
+  
   return (
     <div>
+      <div className='nav'>
+        <Navbar/>
+      </div>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/login" component={Login} />

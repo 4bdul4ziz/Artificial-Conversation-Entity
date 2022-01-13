@@ -11,15 +11,15 @@ const Navbar = () => {
 
     const Menu=()=>(
         <>
-            <p><a href="#home">Home</a></p>
-            <p><a href="#brand">Tech Stack</a></p>
-            <p><a href="#wgpt3">What is Hades</a></p>
-            <p><a href="#features">Case Studies</a></p>
+            <p><Link to="/#home" target='_parent'>Home</Link></p>
+            <p><Link to="/#brand" target='_parent'>Tech Stack</Link></p>
+            <p><Link to="/#wgpt3" target='_parent'>What is Hades</Link></p>
+            <p><Link to="/#features" target='_parent'>Case Studies</Link></p>
         </>
     )
     
     const Sign=()=>(
-        <Link to='/login'>
+        <Link to='/login' target='_blank'>
             <button type="button">Login</button>
         </Link>
     )
