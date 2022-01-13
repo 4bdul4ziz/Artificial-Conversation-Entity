@@ -1,12 +1,12 @@
 import {React, useState } from 'react';
+import { Link } from 'react-router-dom'
+
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/hades2.svg'
 import './Navbar.scss';
 
 const Navbar = () => {
 
-
-    
     const [toggleMenu, setToggleMenu] = useState(false);
 
     const Menu=()=>(
@@ -19,9 +19,9 @@ const Navbar = () => {
     )
     
     const Sign=()=>(
-        <>
+        <Link to='/login'>
             <button type="button">Login</button>
-        </>
+        </Link>
     )
 
     return (

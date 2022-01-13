@@ -4,3 +4,5 @@ export {default as Footer} from './Footer/Footer';
 export {default as Header} from './Header/Header';
 export {default as Possibility} from './Possibility/Possibility';
 export {default as WhatGPT3} from './WhatGPT3/WhatGPT3';
+export {default as SignIn} from './SignIn/SignIn';
+export {default as SignUp} from './SignUp/SignUp';

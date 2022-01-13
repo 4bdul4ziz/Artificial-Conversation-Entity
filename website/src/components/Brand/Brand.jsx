@@ -5,10 +5,10 @@ import './Brand.scss';
 const Brand = () => (
   <div className="gpt3__brand section__padding" id="brand">
     <div>
-      <img src={python} />
+      <img src={python} alt="Python Logo"/>
     </div>
     <div>
-      <img src={react} id='react' />
+      <img src={react} id='react' alt="React Logo"/>
     </div>
     {/* <div>
       <img src={slack} />
