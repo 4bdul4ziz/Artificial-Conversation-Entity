@@ -5,7 +5,7 @@ import './Login.scss'
 
 const Login=()=>{
     // const SignIn=()=>('WOrk nigga')
-    const SignUp=()=>('WOrk nigga')
+    const SignUp=()=>('PLS WORK BRAH')
 
     return(
     <div className="login">
