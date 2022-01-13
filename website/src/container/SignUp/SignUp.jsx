@@ -7,7 +7,6 @@ import './SignUp.scss'
 
 const SignUp=()=>{
 
-
     const [details,setDetails]=React.useState({
         displayName:'',
         email:'',
