@@ -53,4 +53,4 @@ def predict():
             if tag == intent["tag"]:
                 print(f"\n{bot_name}: {random.choice(intent['responses'])}")
     else:
-        print(f"{bot_name}: Tf you mean?")
+        print(f"\n{bot_name}: Tf you mean?")
