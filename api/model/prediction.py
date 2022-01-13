@@ -15,7 +15,7 @@ data = torch.load(file)
 
 
 
-def predict():
+def predict(sentence):
     bot_name = "H.A.D.E.S"
     input_size = data["input_size"]
     hidden_size = data["hidden_size"]
@@ -32,7 +32,6 @@ def predict():
 
     
 
-    sentence = input('\nYou: ')
     if sentence == 'quit':
         exit(1)
     
@@ -51,6 +50,6 @@ def predict():
     if probability.item() > 0.75:
         for intent in responses["intents"]:
             if tag == intent["tag"]:
-                print(f"\n{bot_name}: {random.choice(intent['responses'])}")
+                return f"\n{bot_name}: {random.choice(intent['responses'])}"
     else:
-        print(f"\n{bot_name}: Tf you mean?")
+        return f"\n{bot_name}: Tf you mean?"
