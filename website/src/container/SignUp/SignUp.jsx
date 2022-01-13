@@ -31,7 +31,7 @@ const SignUp=()=>{
                     type='text'
                     name='displayName'
                     value={displayName}
-                    onChange={()=>handleChange}
+                    onChange={handleChange}
                     label='Display Name'
                     required
                 />
@@ -39,7 +39,7 @@ const SignUp=()=>{
                     type='email'
                     name='email'
                     value={email}
-                    onChange={()=>handleChange}
+                    onChange={handleChange}
                     label='E-Mail'
                     required
                 />
@@ -47,7 +47,7 @@ const SignUp=()=>{
                     type='password'
                     name='password'
                     value={password}
-                    onChange={()=>handleChange}
+                    onChange={handleChange}
                     label='password'
                     required
                 />
@@ -55,7 +55,7 @@ const SignUp=()=>{
                     type='password'
                     name='confirmPassword'
                     value={confirmPassword}
-                    onChange={()=>handleChange}
+                    onChange={handleChange}
                     label='Confirm Password'
                     required
                 />
