@@ -27,9 +27,11 @@ model.eval()
 
 bot_name = "Hades"
 print("Hades wants to spank you, to escape, type 'quit'.") """
+bot_name = "H.A.D.E.S"
 print("H.A.D.E.S wants to spank you, to escape, type 'quit'.")
 while True:
-    print(predict(input('\nYou: ')))
+
+    print(f'\n{bot_name}: '+predict(input('\nYou: ')))
     """     sentence = input('\nYou: ')
         if sentence == 'quit':
             break
