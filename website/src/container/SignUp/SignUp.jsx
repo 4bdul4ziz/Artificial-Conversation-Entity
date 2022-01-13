@@ -21,7 +21,7 @@ const SignUp=()=>{
         setDetails(prev=>({...prev,[name]:value}))
     }
     
-    const [displayName,email,password,confirmPassword]=details
+    const {displayName,email,password,confirmPassword}=details
     return(
         <div className="sign-up">
             <h2 className="title">I don't have a account</h2>

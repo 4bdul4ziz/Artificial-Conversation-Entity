@@ -11,7 +11,7 @@ const SignIn=()=>{
 
     const handleChange=event=>{
         const {value,name}=event.target;
-        console.log(value,name)
+        // console.log(value,name)
         setUser((prev)=>({...prev,[name]:value}))
     }
     const {email,password}=user
