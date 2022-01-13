@@ -53,7 +53,7 @@ hidden_size = 10
 output_size = len(tags)
 input_size = len(x_train[0])
 learning_rate = 0.001
-num_epoch = 1000000
+num_epoch = 100000
 
 
 class ChatDataset(Dataset):
@@ -94,3 +94,16 @@ for epoch in range(num_epoch):
 print(f'final loss, loss={loss.item():.4f}')
 
 
+data = {
+    "model_state": model.state_dict(),
+    "input_size": input_size,
+    "output_size": output_size,
+    "hidden_size": hidden_size,
+    "all_words": all_words,
+    "tags": tags
+}
+
+file = "data.pth"
+torch.save(data, file)
+
+print(f'Completed the drill successfully, file saved to {file}')
