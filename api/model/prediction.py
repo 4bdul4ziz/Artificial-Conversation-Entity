@@ -2,15 +2,15 @@ import random
 import json
 from nltk import probability
 import torch
-from mother import NeuralNet
-from nltk_functions import bag_of_words, tokenize
+from api.model.mother import NeuralNet
+from api.model.nltk_functions import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('src/data.json', 'r') as f:
+with open('api/model/data.json', 'r') as f:
     responses = json.load(f)
 
-file = "src/data.pth"
+file = "api/model/data.pth"
 data = torch.load(file)
 
 
