@@ -16,7 +16,7 @@ data = torch.load(file)
 
 
 def predict(sentence):
-    bot_name = "H.A.D.E.S"
+    bot_name = "🤖 H.A.D.E.S"
     input_size = data["input_size"]
     hidden_size = data["hidden_size"]
     output_size = data["output_size"]
