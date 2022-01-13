@@ -2,8 +2,8 @@ import random
 import json
 from nltk import probability
 import torch
-from api.model.mother import NeuralNet
-from api.model.nltk_functions import bag_of_words, tokenize
+from .mother import NeuralNet
+from .nltk_functions import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
