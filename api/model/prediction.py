@@ -2,21 +2,20 @@ import random
 import json
 from nltk import probability
 import torch
-from mother import NeuralNet
-from nltk_functions import bag_of_words, tokenize
+from .mother import NeuralNet
+from .nltk_functions import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('src/data.json', 'r') as f:
+with open('api/model/data.json', 'r') as f:
     responses = json.load(f)
 
-file = "src/data.pth"
+file = "api/model/data.pth"
 data = torch.load(file)
 
 
 
-def predict():
-    bot_name = "H.A.D.E.S"
+def predict(sentence):
     input_size = data["input_size"]
     hidden_size = data["hidden_size"]
     output_size = data["output_size"]
@@ -32,7 +31,6 @@ def predict():
 
     
 
-    sentence = input('\nYou: ')
     if sentence == 'quit':
         exit(1)
     
@@ -51,6 +49,6 @@ def predict():
     if probability.item() > 0.75:
         for intent in responses["intents"]:
             if tag == intent["tag"]:
-                print(f"\n{bot_name}: {random.choice(intent['responses'])}")
+                return f"{random.choice(intent['responses'])}"
     else:
-        print(f"\n{bot_name}: Tf you mean?")
+        return f"Tf you mean?"

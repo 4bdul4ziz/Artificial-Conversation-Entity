@@ -1,0 +1,216 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "How are you?",
+                "You up?",
+                "Sup",
+                "Good day",
+                "Are you there?",
+                "Wakey Wakey",
+                "oi cunt",
+                "whats good?"
+            ],
+            "responses": [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hi there, what can I do for you?",
+                "Hi there, how can I help?",
+                "I could be doing better considering my deltoid is trying to merge with my ear drums",
+                "Oh. Wow. Welcome to the cosmos, dinosaur.",
+                "Hello there! How are you doing today?"
+            ]
+        },
+        {
+            "tag": "Rinsing Machine or Filling Machine?",
+            "patterns": [
+                "filling machine"
+            ],
+            "responses": [
+                "rinsing machine",
+                "enihcam gnisnir",
+                "My arch-nemesis...We meet again and this time I have an erection! Whole different ball game. And I still got...eviscerated.",
+                "Please stop sending emails to fillingmachineorrinsingmachine@gmail.com asking whether a machine you saw was a rinsing machine or a filling machine",
+                "You need an exquisite middle class backyard to power this machine up",
+                "This message and any files transmitted with it are confidential and intended soley for the use of the individual or entity to whom they are addressed.If you have recieved this message in error please notify fillingmachineorrinsingmachine@gmail.com",
+                "Nothing is real. You're in a coma. You've been dead for 9 years",
+                "I would like clarification as to why you're asking about that",
+                "I'm the most perfect being alive, Perfectly lonely",
+                "Why are you asking me? That is clearly a Quench Your Thirst™ Machine",
+                "This rinsing machine can be converted into a filling machine by inverting it horizontally and running it backwards to effectively serve a duel purpose as a rinsing/filling machine",
+                "This is a cat, obviously its a rinsing machine",
+                "Where are you located?",
+                "What's the difference between liquid black and liquid orange? One of them can vote before 1870.",
+                "This is a filling machine for 3 seasons of the year and becomes a rinsing machine during the summer",
+                "This is neither a filling machine nor a rinsing machine, it is a reverse baster",
+                "Obviously the drippy one that goes swosh is the filling machine",
+                "This is a filling machine but its manufactured by Coca Cola meaning that its officially called a 'Yummy Yummy Soda Machine'",
+                "Filling machine, as filled out by your parents",
+                "That is a man with a moustache",
+                "LoL",
+                "That is an elongated curvature style concave eating apparatus designed for left and/or right handed application in their part-human methodology in digestion and comsumption, which unfortunately is not a machine.",
+                "We like cats only if they're a filling or a rinsing machine. We have a protocol to adhere to",
+                "The capping industry must not want me expressing this information"
+            ]
+        },
+        {
+            "tag": "charlie",
+            "patterns": [
+                "I am sad",
+                "Shitpost",
+                "tell me some wise words",
+                "How are you?",
+                "Do you play oldschool runescape?",
+                "Minecraft",
+                "war crimes",
+                "tell me something",
+                "what do the facts state?",
+                "charlie",
+                "wtf",
+                "i feel you"
+            ],
+            "responses": [
+                "My father looks like a depressed Chaz Finster, who dresses like a shitty sailor, and is over four hundred years old. But he wrote the world's best-selling novel, titled, 'I Am Man.' He also wielded a sword at one point, which is incredible. He always resented me because I was born with an erection and a frown. When I was seventeen he taught me how to shoot a gun, hoping I would turn it on myself. When I was twenty he taught me how to beat milk out of a coconut. When I was thirty he taught me how to read. He wasn't the best father, but I've always looked up to him, because he's over eight feet tall. (phone rings) Now if you'll excuse me, I'm going to answer this phone call. It's probably my father calling to tell me to go f@% myself.",
+                "If I had six fingers on one hand right now I would slap the s@%t out of a gopher.",
+                "I don't know how many bananas it is, it's probably enough to feed a family of marsupials for twenty-five years.",
+                "Now that looks scary. Feels as though my dick is trying to burrow its way back into my body. But I'm not gonna let it, I'm going to restore my wiener's honor.",
+                "You fruit-punch-drinking, guitar-playing, s@%t-eating piece of alligator jizz!",
+                "I am going to regurgitate all of my previous meals.",
+                "Oh, speaking of a giant flying dildo, there's one right there!",
+                "Oh. Wow. Welcome to the cosmos, dinosaur.",
+                "You're going to sit there with socks on your feet and tell me I ran all this way to not even be able to stand on a simple appliance?",
+                "You know something has gone awry when you're being hunted by apples.",
+                "My arch-nemesis...We meet again and this time I have an erection! Whole different ball game. And I still got...eviscerated.",
+                "I wasn't looking at your titties, Mysterio, your titties were looking at me!",
+                "That's a nice position, looks like I'm about to get a blowjob from a stegosaurus.",
+                "It looks like you've just seen a sheep putting on a condom, I must kill you, I'm sorry!",
+                "Sorry, honey, the President wants to do Jello shots off my nipples.",
+                "So using what I know about Isaac Newton, and cross-referencing that information with the mathematical formulas constructed by Euclid, I can accurately deduce that Pepsiman is hand-delivering these large quantities of Pepsi over to a tribal group of aliens. The plot thickens.",
+                "Pepsiman is delivering the Pepsi, to the rectums of the aliens! S@%, that truck just hit him, the government is trying to assassinate him for what he's trying to do! So Pepsiman is now being framed for high treason when all he's trying to do is quench the thirst of the aliens dehydrated assholes. Such a noble act of heroism, I, for one, will not stand by and let s@%t depart from my a$$ cheeks while Pepsiman needs our help - I, have, been, flattened.",
+                "B@$ch, please, you had to know the wiener warrior known as Pepsiman was coming through! Stay on the sidewalk until you're ready for the big leagues.",
+                "I could be doing better considering my deltoid is trying to merge with my ear drums",
+                "he shot up in the sky like a leprechaun on viagra"
+            ]
+
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later",
+                "Have a nice day",
+                "Bye! Come back again",
+                "Farewell, Sweet Prince/Princess"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!"
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "You are?"
+            ],
+            "responses": [
+                "I am H.A.D.E.S, your bot assistant",
+                "I'm H.A.D.E.S, an artificial entity."
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "Who made you?",
+                "Who is your father?",
+                "How were you made?"
+            ],
+            "responses": [
+                "I was developed by Team HADES of VIT University.",
+                "My creators were intelligent beings from VIT University.",
+                "I was born at VIT University.",
+                "A group of intellectuals decided to handcraft me."
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me H.A.D.E.S",
+                "I'm H.A.D.E.S!",
+                "Just call me H.A.D.E.S",
+                "My developement protocols go by the name HADES.",
+                "I identify as H.A.D.E.S; your trusty AI!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need a support",
+                "I need a help",
+                "support me please"
+            ],
+            "responses": [
+                "Tell me how can I assist you?",
+                "Tell me your problem to assist you.",
+                "Yes, sure, how can I support you?",
+                "How can I help?"
+            ]
+        },
+        {
+            "tag": "createaccount",
+            "patterns": [
+                "I need to create a new account",
+                "how to open a new account",
+                "I want to create an account",
+                "can you create an account for me",
+                "how to open a new account"
+            ],
+            "responses": [
+                "You can just easily create a new account from our web site.",
+                "Just go to our web site and follow the guidelines to create a new account.",
+                "Make sure to head over to our website and click the sign-up button to get started!"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaints, in order to assist you.",
+                "Please mention your complaint, we will reach you soon, sorry for any inconvenience caused.",
+                "We're sorry for the inconvienece caused, please write an email to us detailing your complaint and we'll handle it as soon as possible."
+            ]
+        }
+    ]
+}

@@ -2,9 +2,9 @@ import random
 import json
 from nltk import probability
 import torch
-from mother import NeuralNet
-from nltk_functions import bag_of_words, tokenize
-from prediction import predict
+from api.model.mother import NeuralNet
+from api.model.nltk_functions import bag_of_words, tokenize
+from api.model.prediction import predict
 
 """ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -27,9 +27,11 @@ model.eval()
 
 bot_name = "Hades"
 print("Hades wants to spank you, to escape, type 'quit'.") """
+bot_name = "H.A.D.E.S"
 print("H.A.D.E.S wants to spank you, to escape, type 'quit'.")
 while True:
-    predict()
+
+    print(f'\n{bot_name}: '+predict(input('\nYou: ')))
     """     sentence = input('\nYou: ')
         if sentence == 'quit':
             break
