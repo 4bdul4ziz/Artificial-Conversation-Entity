@@ -43,12 +43,12 @@
         background: transparent;
         border:1px solid #ff2020;
         transform: translateY(-3px);
-        box-shadow: 0 6px 4px rgba(0,0, 0,0.2);
+        box-shadow: 0 3px 2px rgba(0,0, 0,0.2);
     }
     
     &:active{
         transform: translateY(-1px);
-        box-shadow: 0 3px 2px rgba(0,0, 0,0.2);
+        box-shadow: 0 1px .5px rgba(0,0, 0,0.2);
     }
 }
 
