@@ -1,9 +1,27 @@
 .login {
-    font-family: var(--font-family);
+  // background: white !important;
+    font-family: var(--login-family);
     color:white;
     width: 950px;
     display: flex;
     justify-content: space-between;
     margin: 30px auto;
+    
+    h2{
+        
+        font-family: var(--form-input);
+        font-size: 24px;
+    }
+      
+      span{
+        font-size: 25px;
+      }
+}
+
+@media screen and(max-width:580px) {
+  .login{
+    flex-direction: column;
+
+  }
 }
   

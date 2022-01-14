@@ -31,7 +31,7 @@ const SignUp=()=>{
                     name='displayName'
                     value={displayName}
                     onChange={handleChange}
-                    label='Display Name'
+                    label='NAME'
                     required
                 />
                 <FormInput
@@ -39,7 +39,7 @@ const SignUp=()=>{
                     name='email'
                     value={email}
                     onChange={handleChange}
-                    label='E-Mail'
+                    label='EMAIL'
                     required
                 />
                 <FormInput
@@ -47,7 +47,7 @@ const SignUp=()=>{
                     name='password'
                     value={password}
                     onChange={handleChange}
-                    label='password'
+                    label='PASSWORD'
                     required
                 />
                 <FormInput
@@ -55,7 +55,7 @@ const SignUp=()=>{
                     name='confirmPassword'
                     value={confirmPassword}
                     onChange={handleChange}
-                    label='Confirm Password'
+                    label='CONFIRM PASSWORD'
                     required
                 />
                 <CustomButton type='submit'>SIGN UP</CustomButton>
