@@ -27,7 +27,16 @@
         {
             "tag": "Rinsing Machine or Filling Machine?",
             "patterns": [
-                "filling machine"
+                "filling machine",
+                "rinsing machine",
+                "filling machine enthusiast",
+                "rinsing machine enthusiast",
+                "is this a filling machine or a rinsing machine?",
+                "is this a rinsing machine? or a filling machine?",
+                "Capping machine?",
+                "Please, i dont know what's real anymore",
+                "i saw a rinsing machine labeled as a filling machine machine but i'm not sure of it. it could have been an inccorectly built filling machine, making an appearance of a rinsing machine. Could you kindly clarify it?",
+                "I'm unsure which machine rinses and which fills them"
             ],
             "responses": [
                 "rinsing machine",
