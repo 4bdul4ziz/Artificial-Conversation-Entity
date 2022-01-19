@@ -2,7 +2,7 @@
     "intents": [{
             "tag": "greeting",
             "patterns": [
-                "Hi",
+                "Hello there",
                 "Hey",
                 "Hello",
                 "How are you?",
@@ -149,9 +149,11 @@
         {
             "tag": "creator",
             "patterns": [
-                "Who made you?",
-                "Who is your father?",
-                "How were you made?"
+                "your creators?",
+                "name your makers",
+                "tell me about your creation",
+                "how were you made?",
+                "how was the team that made you?"
             ],
             "responses": [
                 "I was developed by Team HADES of VIT University.",
