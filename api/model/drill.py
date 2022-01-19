@@ -10,7 +10,7 @@ from mother import NeuralNet
 """
 forgive me for not commenting stuff :sadkek: I'll document this properly once i generate some more braincells.
 """
-with open('data.json', 'r') as f:
+with open('api/model/data.json', 'r') as f:
     intents = json.load(f)
 
 all_words = []
@@ -53,7 +53,7 @@ hidden_size = 10
 output_size = len(tags)
 input_size = len(x_train[0])
 learning_rate = 0.001
-num_epoch = 100000
+num_epoch = 1000000
 
 
 class ChatDataset(Dataset):
