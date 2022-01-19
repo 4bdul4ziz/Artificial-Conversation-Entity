@@ -2,7 +2,7 @@
     "intents": [{
             "tag": "greeting",
             "patterns": [
-                "Hi",
+                "Hello there",
                 "Hey",
                 "Hello",
                 "How are you?",
@@ -25,9 +25,21 @@
             ]
         },
         {
-            "tag": "Rinsing Machine or Filling Machine?",
+            "tag": "fillingmachine",
             "patterns": [
-                "filling machine"
+                "filling machine",
+                "machine",
+                "machine decision",
+                "not sure which machine",
+                "rinsing machine",
+                "filling machine enthusiast",
+                "rinsing machine enthusiast",
+                "is this a filling machine or a rinsing machine?",
+                "is this a rinsing machine? or a filling machine?",
+                "Capping machine?",
+                "Please, i dont know what's real anymore",
+                "i saw a rinsing machine labeled as a filling machine machine but i'm not sure of it. it could have been an inccorectly built filling machine, making an appearance of a rinsing machine. Could you kindly clarify it?",
+                "I'm unsure which machine rinses and which fills them"
             ],
             "responses": [
                 "rinsing machine",
@@ -126,23 +138,13 @@
             ]
         },
         {
-            "tag": "about",
-            "patterns": [
-                "Who are you?",
-                "What are you?",
-                "You are?"
-            ],
-            "responses": [
-                "I am H.A.D.E.S, your bot assistant",
-                "I'm H.A.D.E.S, an artificial entity."
-            ]
-        },
-        {
             "tag": "creator",
             "patterns": [
-                "Who made you?",
-                "Who is your father?",
-                "How were you made?"
+                "your creators?",
+                "name your makers",
+                "tell me about your creation",
+                "how were you made?",
+                "how was the team that made you?"
             ],
             "responses": [
                 "I was developed by Team HADES of VIT University.",
@@ -163,7 +165,9 @@
                 "I'm H.A.D.E.S!",
                 "Just call me H.A.D.E.S",
                 "My developement protocols go by the name HADES.",
-                "I identify as H.A.D.E.S; your trusty AI!"
+                "I identify as H.A.D.E.S; your trusty AI!",
+                "I am H.A.D.E.S, your bot assistant",
+                "I'm H.A.D.E.S, an artificial entity."
             ]
         },
         {
@@ -209,7 +213,7 @@
             "responses": [
                 "Please provide us your complaints, in order to assist you.",
                 "Please mention your complaint, we will reach you soon, sorry for any inconvenience caused.",
-                "We're sorry for the inconvienece caused, please write an email to us detailing your complaint and we'll handle it as soon as possible."
+                "We're sorry for the inconvenience caused, please write an email to us detailing your complaint and we'll handle it as soon as possible."
             ]
         }
     ]
