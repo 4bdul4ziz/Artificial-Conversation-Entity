@@ -24,7 +24,7 @@ class ChatApplication:
     def _setup_main_window(self):
         self.window.title("H.A.D.E.S")       
         self.window.resizable(width=False, height=False)
-        self.window.configure(width=470, height=550, bg=bg_color)
+        self.window.configure(width=500, height=550, bg=bg_color)
         
         head_label = Label(self.window, bg=bg_color, fg=text_color, text="𝙼𝚊𝚍𝚎 𝚠𝚒𝚝𝚑 ☕️ & ❤️ 𝚋𝚢 𝚃𝚎𝚊𝚖 𝙷𝙰𝙳𝙴𝚂", font=font_bold, pady=10)
         head_label.place(relwidth=1)
