@@ -28,6 +28,9 @@
             "tag": "Rinsing Machine or Filling Machine?",
             "patterns": [
                 "filling machine",
+                "machine",
+                "machine decision",
+                "not sure which machine",
                 "rinsing machine",
                 "filling machine enthusiast",
                 "rinsing machine enthusiast",
@@ -135,18 +138,6 @@
             ]
         },
         {
-            "tag": "about",
-            "patterns": [
-                "Who are you?",
-                "What are you?",
-                "You are?"
-            ],
-            "responses": [
-                "I am H.A.D.E.S, your bot assistant",
-                "I'm H.A.D.E.S, an artificial entity."
-            ]
-        },
-        {
             "tag": "creator",
             "patterns": [
                 "your creators?",
@@ -174,7 +165,9 @@
                 "I'm H.A.D.E.S!",
                 "Just call me H.A.D.E.S",
                 "My developement protocols go by the name HADES.",
-                "I identify as H.A.D.E.S; your trusty AI!"
+                "I identify as H.A.D.E.S; your trusty AI!",
+                "I am H.A.D.E.S, your bot assistant",
+                "I'm H.A.D.E.S, an artificial entity."
             ]
         },
         {
@@ -220,7 +213,7 @@
             "responses": [
                 "Please provide us your complaints, in order to assist you.",
                 "Please mention your complaint, we will reach you soon, sorry for any inconvenience caused.",
-                "We're sorry for the inconvienece caused, please write an email to us detailing your complaint and we'll handle it as soon as possible."
+                "We're sorry for the inconvenience caused, please write an email to us detailing your complaint and we'll handle it as soon as possible."
             ]
         }
     ]
