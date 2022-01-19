@@ -10,7 +10,7 @@ from mother import NeuralNet
 """
 forgive me for not commenting stuff :sadkek: I'll document this properly once i generate some more braincells.
 """
-with open('data.json', 'r') as f:
+with open('api/model/data.json', 'r') as f:
     intents = json.load(f)
 
 all_words = []
