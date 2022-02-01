@@ -4,9 +4,9 @@ from turtle import bgcolor
 from api.model.prediction import predict
 
 
-from pyfiglet import Figlet
-f = Figlet(font='doh')
-title = f.renderText('H.A.D.E.S')
+#from pyfiglet import Figlet
+#f = Figlet(font='doh')
+#title = f.renderText('H.A.D.E.S')
 
 bg_gray = "#ABB2B9"
 bg_color = "#17202A"
