@@ -4,20 +4,20 @@ import './Features.scss'
 
 const featuresData = [
     {
-      title: 'Straight Outta Compton',
-      text: "You are now about to witness the strength of street knowledge Straight outta Compton, crazy motherfucker named Ice Cube  From the gang called Niggaz With Attitudes When I'm called off, I got a sawed off Squeeze the trigger, and bodies are hauled off You too, boy, if ya fuck with me",
+      title: 'Deep Q Learning',
+      text: "The process of Q-Learning creates an exact matrix for the working agent which it can “refer to” to maximize its reward in the long run. Although this approach is not wrong in itself, this is only practical for very small environments and quickly loses it’s feasibility when the number of states and actions in the environment increases.",
     },
     {
-      title: 'Real Muthaphuckkin Gs',
-      text: "Mothafuck Dre Mothafuck Snoop Mothafuck Death Row Yo, and here comes me left blow Cause i'm the E-A-Z-Y-E, and this is the season to let real Gs in",
+      title: 'Machine Learning',
+      text: "Machine Learning is the field of study that gives computers the capability to learn without being explicitly programmed. ML is one of the most exciting technologies that one would have ever come across. As it is evident from the name, it gives the computer that makes it more similar to humans: The ability to learn. Machine learning is actively being used today, perhaps in many more places than one would expect.",
     },
     {
-      title: "Nuthin' but a 'G' Thang",
-      text: "One, two, three and to the four Snoop Doggy Dogg and Dr. Dre is at the door Ready to make an entrance, so back on up ('Cause you know we're 'bout to rip shit up) Gimme the microphone first, so I can bust like a bubble Compton and Long Beach together, now you know you in trouble Ain't nothin' but a G thang, baby",
+      title: "Natural Language Processing",
+      text: "Natural Language Processing (NLP) is the process of converting a natural language into a computer language. It is the process of taking a sentence, like “I want to go to the store” and converting it into a computer language. It is the process of taking a sentence, like “I want to go to the store” and converting it into a computer language. It is the process of taking a sentence, like “I want to go to the store” and converting it into a computer language.",
     },
     {
-      title: 'Kicking in The Doors',
-      text: "Kick in the door, waving the four-four All you heard was Poppa don't hit me no more Kick in the door, waving the four-four All you heard was  don't hit me no more Kick in the door, waving the four-four All you heard was Poppa don't hit me no more (Biggie) Kick in the door, waving the four-four (Uh-huh) All you heard was Poppa don't hit me no more",
+      title: 'Customer Support',
+      text: "Customer Support is the process of providing assistance to customers. It is the process of providing assistance to customers.",
     },
   ];
   
