@@ -6,7 +6,7 @@ import ai from '../../assets/ai.png'
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">An Artificial Coversing Entity</h1>
+      <h1 className="gradient__text">An Artificial Conversing Entity</h1>
       <p>With the help of neural networks, we can create a conversational entity that can answer questions about the world.
       </p><p>
         By - Abdul Aziz, Abhinav Bhatia & Subhranshu Pati.
