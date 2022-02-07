@@ -11,10 +11,10 @@ const Navbar = () => {
 
     const Menu=()=>(
         <>
-            <p><Link to="/#home" target='_parent'>Home</Link></p>
-            <p><Link to="/#brand" target='_parent'>Tech Stack</Link></p>
-            <p><Link to="/#wgpt3" target='_parent'>What is Hades</Link></p>
-            <p><Link to="/#features" target='_parent'>Case Studies</Link></p>
+            <p><Link to="/Artificial-Conversation-Entity/#home" target='_parent'>Home</Link></p>
+            <p><Link to="/Artificial-Conversation-Entity/#brand" target='_parent'>Tech Stack</Link></p>
+            <p><Link to="/Artificial-Conversation-Entity/#wgpt3" target='_parent'>What is Hades</Link></p>
+            <p><Link to="/Artificial-Conversation-Entity/#features" target='_parent'>Case Studies</Link></p>
         </>
     )
     
