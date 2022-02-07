@@ -46,7 +46,7 @@ x_train = np.array(x_train)
 y_train = np.array(y_train)
 print(x_train)
 """
-Hyperparameters, uhh yeah- does some magic shit, configure this to change the train loader configs.
+Hyperparameters, uhh yeah- does some magic, configure this to change the train loader configs.
 """
 batch_size = 10
 hidden_size = 10
