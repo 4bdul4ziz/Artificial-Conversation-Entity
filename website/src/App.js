@@ -29,7 +29,7 @@ function App() {
         <Navbar/>
       </div>
         <Switch>
-          <Route exact path="/" component={HomePage} />
+          <Route exact path="/Artificial-Conversation-Entity" component={HomePage} />
           <Route exact path="/login" component={Login} />
         </Switch>
     </div>
