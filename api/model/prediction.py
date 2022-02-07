@@ -51,4 +51,4 @@ def predict(sentence):
             if tag == intent["tag"]:
                 return f"{random.choice(intent['responses'])}"
     else:
-        return f"Tf you mean?"
+        return f"Unfortunately, that is beyond my understanding. Please try again."
