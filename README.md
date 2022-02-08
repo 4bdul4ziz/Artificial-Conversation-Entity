@@ -6,9 +6,9 @@ AI conversation entity using Natural Language Toolkit, Neural Network, Tensorflo
 ### Team Members
 
 1. [Abdul Aziz](https://github.com/4bdul4ziz) 	      (20BRS1185)
-2. [Abhinav Bhatia](https://github.com/AgentAss)     (20BRS1209)
+<!-- 2. [Abhinav Bhatia](https://github.com/AgentAss)     (20BRS1209)
 3. [Subhranshu Pati](https://github.com/h0lycow)    (20BRS1064)
-
+ -->
 
 ### Tech Stack (proposed) 
 1. Natural Language Toolkit
