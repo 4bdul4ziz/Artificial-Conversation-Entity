@@ -9,7 +9,7 @@ const Header = () => (
       <h1 className="gradient__text">An Artificial Conversing Entity</h1>
       <p>With the help of neural networks, we can create a conversational entity that can answer questions about the world.
       </p><p>
-        By - Abdul Aziz.
+        By - Team HADES.
       </p>
 
       <div className="gpt3__header-content__input">
