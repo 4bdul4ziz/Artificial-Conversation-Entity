@@ -7,9 +7,7 @@ AI conversation entity using Natural Language Toolkit, Neural Network, Tensorflo
 
 1. [Abdul Aziz](https://github.com/4bdul4ziz) 	      (20BRS1185)
 2. [Abhinav Bhatia](https://github.com/AgentAss)     (20BRS1209)
-4. [Annsley](https://github.com/VioletActual)            (20BRS1239)
-5. [Sukrit](https://github.com/SukritTM)          (20BCE1896)
-6. [Subhranshu Pati](https://github.com/h0lycow)    (20BRS1064)
+3. [Subhranshu Pati](https://github.com/h0lycow)    (20BRS1064)
 
 
 ### Tech Stack (proposed) 
