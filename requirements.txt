@@ -17,3 +17,4 @@ torch==1.10.1
 tqdm==4.62.3
 typing-extensions==4.0.1
 Werkzeug==2.0.2
+zipp==3.1.0
